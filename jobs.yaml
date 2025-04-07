@@ -1,0 +1,7 @@
+jobs:
+  - name: testJob1
+    path: ./jobs/testJob1.ts
+    schedule: "*/1 * * * *"
+  - name: testJob2
+    path: ./jobs/testJob2.ts
+    schedule: "*/2 * * * *"
